@@ -1,0 +1,3 @@
+testtuto_homepage:
+    path:     /test
+    defaults: { _controller: testtutoBundle:Default:index }
