@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('testtutoBundle:Default:index.html.twig');
     }
+    public function afficheAction()
+    {
+        $x="Binjour Bilel";
+        return $this->render('testtutoBundle:Default:affiche.html.twig',array("x"=>$x));
+    }
 }

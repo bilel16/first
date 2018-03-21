@@ -1,3 +1,6 @@
 testtuto_homepage:
     path:     /test
     defaults: { _controller: testtutoBundle:Default:index }
+test:
+   path:      /test1
+   defaults:  { _controller: testtutoBundle:Dfault:affiche }
